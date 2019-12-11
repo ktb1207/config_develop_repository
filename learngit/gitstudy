@@ -91,4 +91,5 @@
   $ git remote -v | --verbose 列出详细信息，在每一个名字后面列出其远程url
   $ git remote add 添加远程仓库
   $ git remote rm origin 删除远程分支
-21.
+21.提交远程
+  $ git push -u origin master
