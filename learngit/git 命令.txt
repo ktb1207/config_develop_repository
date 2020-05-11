@@ -1,0 +1,37 @@
+分支：
+
+1.查看所有远程分支：git branch -r
+2.查看本地分支：git branch
+3.创建本地分支：git branch 分支名称
+4.切换本地 分支：git checkout 分支名称
+3.拉取远程分支并创建本地分支:git checkout -b 本地分支名x origin/远程分支名x
+4.查看本地分支和远程分支之间映射关系：git branch -vv
+5.建立本地分支与远程分支映射关系：git branch -u origin/远程分支名x
+说明：这样使用git pull或者git push时就不必每次都要指定从远程的哪个分支拉取合并和推送到远程的哪个分支了。
+6.删除本地分支：git branch -d branchname
+7.删除远程分支：git push origin --delete branchname
+8.合并指定分支到当前分支：git merge branchname
+
+工作区：
+
+1.产看工作区：git status
+2.添加工作区指定文件到暂存区：git add file1 file2
+3.添加所有文件到暂存区：git add .
+3.删除工作区文件：git rm file1
+4.撤销工作区单一文件修改：git checkout -- filename
+5.撤销工作区所有修改：git checkout .
+
+储存修改：
+
+1.储存更改：git stash
+2.恢复储藏的代码：git stash pop // 恢复的同时把stash内容删掉
+3.清空存储：git stash clear
+
+暂存区：
+
+1.提交暂存区到仓库区：git commit -m 'message'
+2.提交暂存区的指定文件到仓库区:git commit [file1] [file2] ... -m [message]
+3.
+
+
+
