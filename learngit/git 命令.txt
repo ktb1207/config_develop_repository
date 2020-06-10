@@ -31,7 +31,6 @@
 
 1.提交暂存区到仓库区：git commit -m 'message'
 2.提交暂存区的指定文件到仓库区:git commit [file1] [file2] ... -m [message]
-3.
 
 
 
