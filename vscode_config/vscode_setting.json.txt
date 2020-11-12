@@ -1,11 +1,20 @@
 {
   "http.proxy": "http://proxy3.bj.petrochina:8080",
   "workbench.iconTheme": "vscode-icons",
+  "fileheader.Author": "kongtb",
+  "fileheader.LastModifiedBy": "kongtb",
+  "files.associations": {},
+  "files.eol": "\n",
+  "window.zoomLevel": 0,
+  "emmet.triggerExpansionOnTab": true,
+  "emmet.includeLanguages": { "javascript": "javascriptreact" },
+  "editor.accessibilitySupport": "off",
   "editor.tabSize": 2,
-  "editor.formatOnSave": false,
+  "editor.formatOnSave": true,
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": true
   },
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
   "[html]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
@@ -18,19 +27,13 @@
   "[javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "prettier.printWidth": 100,
+  "[vue]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "prettier.printWidth": 140,
   "prettier.tabWidth": 2,
   "prettier.useTabs": false,
   "prettier.semi": true,
   "prettier.singleQuote": true,
-  "files.associations": {
-  
-  },
-  "[vue]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "fileheader.Author": "kongtb",
-  "fileheader.LastModifiedBy": "kongtb",
-  "window.zoomLevel": 0,
-  "editor.accessibilitySupport": "off"
+  "settingsSync.ignoredExtensions": []
 }
